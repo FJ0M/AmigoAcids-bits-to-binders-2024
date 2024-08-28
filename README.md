@@ -3,7 +3,8 @@
 Private GitHub repo for the AmigoAcids team during the BioML bits-to-binders challenge 2024.
 
 ### Current team logo:
-![Team Logo](./imgages/icon.png "Team Logo")
+![Team Logo](./images/icon.png "Team Logo")
+
 Made using Adobe illustrator generative fill tool.
 
 ### Links to useful tools:
