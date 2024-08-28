@@ -1,20 +1,14 @@
-# Adaptyv Bio Protein Design Competition August 2024 Submission
+# AmigoAcids-bits-to-binders-2024
 
-Link to competition: https://design.adaptyvbio.com/
+Private GitHub repo for the AmigoAcids team during the BioML bits-to-binders challenge 2024.
 
-## Pipeline overview:
-![Pipeline overview](./imgs/flow_diagram.png "Pipeline Overview")
+### Current team logo:
+![Team Logo](./imgages/icon.png "Team Logo")
+Made using Adobe illustrator generative fill tool.
 
-### Prerequisites:
+### Links to useful tools:
 - ProteinMPNN: https://github.com/dauparas/ProteinMPNN
 - ESMFold: https://github.com/facebookresearch/esm
 - AlphaPulldown: https://github.com/KosinskiLab/AlphaPulldown
 - RFdiffusion: https://github.com/RosettaCommons/RFdiffusion
-
-### What could have been improved
-- More scaffolds
-- Some sort of energy / forcefield scoring
-- Relaxing the interface
-
-### Hardware
-Ran using a A100 GPU HPC server.
+- ColabDesign: https://github.com/sokrypton/ColabDesign
