@@ -1,7 +1,0 @@
-- inference.output_prefix=/projects/cpr_sbmm/people/phr361/PDcomp/RF_diff/att1/normal_weights/
-- inference.input_pdb=/projects/cpr_sbmm/people/phr361/PDcomp/CD20/structures/6vja_AB_relaxed.pdb
-- contigmap.contigs=[C140-190/0  80]
-- ppi.hotspot_res=[C161,C171,C172,C173,C174,C175]
-- inference.num_designs=50
-- denoiser.noise_scale_ca=0
-- denoiser.noise_scale_frame=0
