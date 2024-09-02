@@ -24,20 +24,20 @@ conda activate /projects/cpr_software/apps/condaenvs/23.5.2/SE3nv
 
 # Define input and working directory
 WORKDIR=/projects/cpr_sbmm/people/phr361/PDcomp
-INPUT_PDB=${WORKDIR}/CD20/structures/6vja_AB_relaxed.pdb
+INPUT_PDB=${WORKDIR}/CD20/structures/6vja_CD20_relaxed.pdb
 RFdiff_path=/projects/cpr_software/apps/software-src/RFdiffusion/scripts/run_inference.py
 
 mkdir -p ${WORKDIR}/RF_diff/
-mkdir -p ${WORKDIR}/RF_diff/att2/
+mkdir -p ${WORKDIR}/RF_diff/att3/
 # Create necessary directories
-mkdir -p ${WORKDIR}/RF_diff/att2/normal_weights
+mkdir -p ${WORKDIR}/RF_diff/att3/normal_weights
 
 # Part 1: Protein Backbone Generation
 
-RESULTS_DIR=${WORKDIR}/RF_diff/att2/normal_weights/
+RESULTS_DIR=${WORKDIR}/RF_diff/att3/normal_weights/
 cd ${RESULTS_DIR}
 "${RFdiff_path}" inference.output_prefix="${RESULTS_DIR}" inference.input_pdb="${INPUT_PDB}" \
-    'contigmap.contigs=[C70-85/C140-190/0  80-80]' \
+    'contigmap.contigs=[C70-85/C140-190/0 D70-85/D140-190/0 80-80]' \
     'ppi.hotspot_res=[C161,C171,C172,C173,C174,C175]' \
     inference.num_designs=1000 denoiser.noise_scale_ca=0 denoiser.noise_scale_frame=0 \
     
