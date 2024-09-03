@@ -53,7 +53,7 @@ run_protein_mpnn() {
 }
 
 # First working directory
-WORKDIR=/projects/cpr_sbmm/people/phr361/PDcomp/PMPNN/01SEP24/
+WORKDIR=/projects/cpr_sbmm/people/phr361/PDcomp/PMPNN/02SEP24/
 cd ${WORKDIR}
 
 # Iterate over each PDB file in WORKDIR for normal weights
